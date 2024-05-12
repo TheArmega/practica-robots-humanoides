@@ -88,7 +88,10 @@ def askGravity():
 
 El resultado de usar otra gravedad en el plano sagital es el siguiente:
 
-![Gif](videos/planetas.mp4)
+
+
+https://github.com/TheArmega/practica-robots-humanoides/assets/38068010/7adc9164-2a41-48bd-82e3-0b7696856598
+
 
 
 ## EXTRA GRANDE: visualización 3D
