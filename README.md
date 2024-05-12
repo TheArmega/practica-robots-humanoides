@@ -32,6 +32,9 @@ self.zmp_time_change = [
 
 Modificando estas sentencias conseguimos el siguiente resultado:
 
+![Gif](videos/frontal.gif)
+
+
 ## Avance en el plano **sagital**
 Para simular el avance del robot en el plano sagital he usado el archivo **limp2d_sagital**.
 Dentro de este archivo se han modificado las siguientes sentencias para simular de manera correcta la caminata:
@@ -48,6 +51,8 @@ self.zmp_x_change = [100, 300, 500, 700, 900, 1100, 1300]
 ```
 
 Modificando estas sentencias conseguimos el siguiente resultado:
+
+![Gif](videos/sagital.gif)
 
 ## EXTRA PEQUEÑO: gravedades
 Se ha añadido una función que te pregunta que **gravedad** quieres usar para la simulación:
@@ -82,6 +87,9 @@ def askGravity():
 ```
 
 El resultado de usar otra gravedad en el plano sagital es el siguiente:
+
+![Gif](videos/planetas.mp4)
+
 
 ## EXTRA GRANDE: visualización 3D
 Se ha modificado el código de limp2d_sagital para que se muestre la simulación en **3 dimensiones**.
@@ -125,6 +133,9 @@ class Simulator:
 ```
 
 El resultado de la simulación en 3 dimensiones es el siguiente:
+
+![Gif](videos/3d.gif)
+
 
 ## EXTRA PEQUEÑO: pendulo de altura variable
 Se ha modificado el código de limp2d_sagital para que el péndulo cambie su altura en cada paso:
@@ -176,3 +187,5 @@ class Simulator:
         return (ln,)
 ```
 El resultado es el siguiente:
+
+![Gif](videos/pendulo.gif)
