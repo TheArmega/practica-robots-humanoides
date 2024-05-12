@@ -38,7 +38,7 @@ class Simulator:
     def __init__(self):
         # self.zmp_y = [200, 600, 200, 600]
         # self.zmp_time_change = [26, 31, 35, 38]
-        self.zmp_y = [100, 300, 100, 300, 100, 300, 100, 300, 100]
+        self.zmp_y = [100, 300, 100, 300, 100, 300, 100, 300, 100, 300, 100]
         k = 5
         self.zmp_time_change = [
             24,
