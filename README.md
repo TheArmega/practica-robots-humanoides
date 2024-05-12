@@ -1,7 +1,7 @@
 # practica-robots-humanoides
 
-## Avance en el plano **sagital**
-Para simular el avance del robot en el plano sagital he usado el archivo **limp2d_frontal**.
+## Avance en el plano **frontal**
+Para simular el avance del robot en el plano frontal he usado el archivo **limp2d_frontal**.
 Dentro de este archivo se han modificado las siguientes sentencias para simular de manera correcta el balanceo:
 ```python
 # linea 18 
@@ -31,4 +31,11 @@ self.zmp_time_change = [
 ```
 
 Modificando estas sentencias conseguimos el siguiente resultado:
+
+## Avance en el plano **sagital**
+Para simular el avance del robot en el plano sagital he usado el archivo **limp2d_sagital**.
+Dentro de este archivo se han modificado las siguientes sentencias para simular de manera correcta la caminata:
+```python
+
+```
 
